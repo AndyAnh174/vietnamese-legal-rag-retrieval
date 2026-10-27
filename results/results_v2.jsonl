@@ -1,0 +1,78 @@
+{"key": "bm25-syllable|article", "split": "all", "chunk": "article", "n": 788, "R@1": 44.16, "R@5": 75.57, "R@10": 82.49, "R@20": 86.99, "MRR@10": 57.63, "nDCG@10": 63.68, "time_s": 26.3}
+{"key": "bm25-syllable|article", "split": "dev", "chunk": "article", "n": 2408, "R@1": 47.73, "R@5": 74.53, "R@10": 81.1, "R@20": 86.63, "MRR@10": 59.97, "nDCG@10": 64.88, "time_s": 26.3}
+{"key": "bm25-syllable|article", "split": "held", "chunk": "article", "n": 788, "R@1": 44.16, "R@5": 75.57, "R@10": 82.49, "R@20": 86.99, "MRR@10": 57.63, "nDCG@10": 63.68, "time_s": 26.3}
+{"key": "bm25-word|article", "split": "all", "chunk": "article", "n": 788, "R@1": 46.32, "R@5": 77.92, "R@10": 85.98, "R@20": 91.12, "MRR@10": 59.68, "nDCG@10": 66.03, "time_s": 67.3}
+{"key": "bm25-word|article", "split": "dev", "chunk": "article", "n": 2408, "R@1": 52.27, "R@5": 77.48, "R@10": 84.28, "R@20": 89.07, "MRR@10": 63.71, "nDCG@10": 68.5, "time_s": 67.3}
+{"key": "bm25-word|article", "split": "held", "chunk": "article", "n": 788, "R@1": 46.32, "R@5": 77.92, "R@10": 85.98, "R@20": 91.12, "MRR@10": 59.68, "nDCG@10": 66.03, "time_s": 67.3}
+{"key": "bm25-syllable|fixed128", "split": "all", "chunk": "fixed128", "n": 788, "R@1": 48.29, "R@5": 79.44, "R@10": 84.45, "R@20": 90.04, "MRR@10": 61.94, "nDCG@10": 67.47, "time_s": 43.0}
+{"key": "bm25-syllable|fixed128", "split": "dev", "chunk": "fixed128", "n": 2408, "R@1": 51.34, "R@5": 77.37, "R@10": 83.19, "R@20": 88.19, "MRR@10": 63.22, "nDCG@10": 67.86, "time_s": 43.0}
+{"key": "bm25-syllable|fixed128", "split": "held", "chunk": "fixed128", "n": 788, "R@1": 48.29, "R@5": 79.44, "R@10": 84.45, "R@20": 90.04, "MRR@10": 61.94, "nDCG@10": 67.47, "time_s": 43.0}
+{"key": "bm25-word|fixed128", "split": "all", "chunk": "fixed128", "n": 788, "R@1": 51.02, "R@5": 79.06, "R@10": 85.15, "R@20": 92.7, "MRR@10": 63.27, "nDCG@10": 68.58, "time_s": 91.0}
+{"key": "bm25-word|fixed128", "split": "dev", "chunk": "fixed128", "n": 2408, "R@1": 52.09, "R@5": 79.14, "R@10": 85.24, "R@20": 90.15, "MRR@10": 64.25, "nDCG@10": 69.15, "time_s": 91.0}
+{"key": "bm25-word|fixed128", "split": "held", "chunk": "fixed128", "n": 788, "R@1": 51.02, "R@5": 79.06, "R@10": 85.15, "R@20": 92.7, "MRR@10": 63.27, "nDCG@10": 68.58, "time_s": 91.0}
+{"key": "bm25-syllable|fixed256", "split": "all", "chunk": "fixed256", "n": 788, "R@1": 47.59, "R@5": 77.79, "R@10": 83.57, "R@20": 88.32, "MRR@10": 60.93, "nDCG@10": 66.46, "time_s": 37.7}
+{"key": "bm25-syllable|fixed256", "split": "dev", "chunk": "fixed256", "n": 2408, "R@1": 51.19, "R@5": 76.61, "R@10": 82.85, "R@20": 87.87, "MRR@10": 62.7, "nDCG@10": 67.36, "time_s": 37.7}
+{"key": "bm25-syllable|fixed256", "split": "held", "chunk": "fixed256", "n": 788, "R@1": 47.59, "R@5": 77.79, "R@10": 83.57, "R@20": 88.32, "MRR@10": 60.93, "nDCG@10": 66.46, "time_s": 37.7}
+{"key": "bm25-word|fixed256", "split": "all", "chunk": "fixed256", "n": 788, "R@1": 50.25, "R@5": 79.19, "R@10": 86.42, "R@20": 91.81, "MRR@10": 63.04, "nDCG@10": 68.69, "time_s": 89.2}
+{"key": "bm25-word|fixed256", "split": "dev", "chunk": "fixed256", "n": 2408, "R@1": 54.0, "R@5": 78.43, "R@10": 84.8, "R@20": 90.01, "MRR@10": 65.22, "nDCG@10": 69.76, "time_s": 89.2}
+{"key": "bm25-word|fixed256", "split": "held", "chunk": "fixed256", "n": 788, "R@1": 50.25, "R@5": 79.19, "R@10": 86.42, "R@20": 91.81, "MRR@10": 63.04, "nDCG@10": 68.69, "time_s": 89.2}
+{"key": "bm25-syllable|sent256", "split": "all", "chunk": "sent256", "n": 788, "R@1": 49.11, "R@5": 77.66, "R@10": 83.31, "R@20": 89.02, "MRR@10": 61.56, "nDCG@10": 66.85, "time_s": 29.0}
+{"key": "bm25-syllable|sent256", "split": "dev", "chunk": "sent256", "n": 2408, "R@1": 51.76, "R@5": 77.42, "R@10": 83.28, "R@20": 88.07, "MRR@10": 63.24, "nDCG@10": 67.87, "time_s": 29.0}
+{"key": "bm25-syllable|sent256", "split": "held", "chunk": "sent256", "n": 788, "R@1": 49.11, "R@5": 77.66, "R@10": 83.31, "R@20": 89.02, "MRR@10": 61.56, "nDCG@10": 66.85, "time_s": 29.0}
+{"key": "bm25-word|sent256", "split": "all", "chunk": "sent256", "n": 788, "R@1": 52.66, "R@5": 78.68, "R@10": 84.96, "R@20": 91.31, "MRR@10": 63.9, "nDCG@10": 69.0, "time_s": 71.0}
+{"key": "bm25-word|sent256", "split": "dev", "chunk": "sent256", "n": 2408, "R@1": 53.79, "R@5": 78.91, "R@10": 84.99, "R@20": 90.24, "MRR@10": 65.25, "nDCG@10": 69.85, "time_s": 71.1}
+{"key": "bm25-word|sent256", "split": "held", "chunk": "sent256", "n": 788, "R@1": 52.66, "R@5": 78.68, "R@10": 84.96, "R@20": 91.31, "MRR@10": 63.9, "nDCG@10": 69.0, "time_s": 71.1}
+{"key": "e5-large|article", "split": "all", "chunk": "article", "n": 788, "R@1": 48.98, "R@5": 76.14, "R@10": 84.64, "R@20": 91.37, "MRR@10": 60.88, "nDCG@10": 66.53, "time_s": 121.9}
+{"key": "e5-large|article", "split": "dev", "chunk": "article", "n": 2408, "R@1": 54.89, "R@5": 81.19, "R@10": 87.4, "R@20": 91.96, "MRR@10": 67.06, "nDCG@10": 71.76, "time_s": 121.9}
+{"key": "e5-large|article", "split": "held", "chunk": "article", "n": 788, "R@1": 48.98, "R@5": 76.14, "R@10": 84.64, "R@20": 91.37, "MRR@10": 60.88, "nDCG@10": 66.53, "time_s": 121.9}
+{"key": "e5-large|fixed128", "split": "all", "chunk": "fixed128", "n": 788, "R@1": 55.46, "R@5": 85.34, "R@10": 92.51, "R@20": 96.32, "MRR@10": 68.59, "nDCG@10": 74.33, "time_s": 201.0}
+{"key": "e5-large|fixed128", "split": "dev", "chunk": "fixed128", "n": 2408, "R@1": 61.61, "R@5": 86.79, "R@10": 91.75, "R@20": 94.87, "MRR@10": 73.4, "nDCG@10": 77.65, "time_s": 201.0}
+{"key": "e5-large|fixed128", "split": "held", "chunk": "fixed128", "n": 788, "R@1": 55.46, "R@5": 85.34, "R@10": 92.51, "R@20": 96.32, "MRR@10": 68.59, "nDCG@10": 74.33, "time_s": 201.0}
+{"key": "e5-large|fixed256", "split": "all", "chunk": "fixed256", "n": 788, "R@1": 56.09, "R@5": 87.37, "R@10": 92.58, "R@20": 95.69, "MRR@10": 69.59, "nDCG@10": 75.14, "time_s": 196.0}
+{"key": "e5-large|fixed256", "split": "dev", "chunk": "fixed256", "n": 2408, "R@1": 61.24, "R@5": 86.36, "R@10": 91.49, "R@20": 94.8, "MRR@10": 72.96, "nDCG@10": 77.21, "time_s": 196.0}
+{"key": "e5-large|fixed256", "split": "held", "chunk": "fixed256", "n": 788, "R@1": 56.09, "R@5": 87.37, "R@10": 92.58, "R@20": 95.69, "MRR@10": 69.59, "nDCG@10": 75.14, "time_s": 196.0}
+{"key": "e5-large|sent256", "split": "all", "chunk": "sent256", "n": 788, "R@1": 57.11, "R@5": 86.04, "R@10": 92.51, "R@20": 95.69, "MRR@10": 69.95, "nDCG@10": 75.39, "time_s": 151.5}
+{"key": "e5-large|sent256", "split": "dev", "chunk": "sent256", "n": 2408, "R@1": 61.53, "R@5": 86.7, "R@10": 91.62, "R@20": 95.04, "MRR@10": 73.21, "nDCG@10": 77.45, "time_s": 151.5}
+{"key": "e5-large|sent256", "split": "held", "chunk": "sent256", "n": 788, "R@1": 57.11, "R@5": 86.04, "R@10": 92.51, "R@20": 95.69, "MRR@10": 69.95, "nDCG@10": 75.39, "time_s": 151.5}
+{"key": "bge-m3|article", "split": "all", "chunk": "article", "n": 788, "R@1": 54.25, "R@5": 82.93, "R@10": 90.1, "R@20": 93.15, "MRR@10": 66.42, "nDCG@10": 72.14, "time_s": 150.2}
+{"key": "bge-m3|article", "split": "dev", "chunk": "article", "n": 2408, "R@1": 56.31, "R@5": 82.4, "R@10": 87.87, "R@20": 91.83, "MRR@10": 68.23, "nDCG@10": 72.7, "time_s": 150.2}
+{"key": "bge-m3|article", "split": "held", "chunk": "article", "n": 788, "R@1": 54.25, "R@5": 82.93, "R@10": 90.1, "R@20": 93.15, "MRR@10": 66.42, "nDCG@10": 72.14, "time_s": 150.2}
+{"key": "bge-m3|fixed128", "split": "all", "chunk": "fixed128", "n": 788, "R@1": 55.52, "R@5": 84.9, "R@10": 91.37, "R@20": 95.05, "MRR@10": 67.97, "nDCG@10": 73.64, "time_s": 198.7}
+{"key": "bge-m3|fixed128", "split": "dev", "chunk": "fixed128", "n": 2408, "R@1": 60.91, "R@5": 85.99, "R@10": 91.0, "R@20": 93.78, "MRR@10": 72.36, "nDCG@10": 76.69, "time_s": 198.7}
+{"key": "bge-m3|fixed128", "split": "held", "chunk": "fixed128", "n": 788, "R@1": 55.52, "R@5": 84.9, "R@10": 91.37, "R@20": 95.05, "MRR@10": 67.97, "nDCG@10": 73.64, "time_s": 198.7}
+{"key": "bge-m3|fixed256", "split": "all", "chunk": "fixed256", "n": 788, "R@1": 53.55, "R@5": 85.79, "R@10": 92.51, "R@20": 95.94, "MRR@10": 67.51, "nDCG@10": 73.57, "time_s": 194.3}
+{"key": "bge-m3|fixed256", "split": "dev", "chunk": "fixed256", "n": 2408, "R@1": 60.1, "R@5": 85.24, "R@10": 90.16, "R@20": 93.54, "MRR@10": 71.69, "nDCG@10": 75.94, "time_s": 194.3}
+{"key": "bge-m3|fixed256", "split": "held", "chunk": "fixed256", "n": 788, "R@1": 53.55, "R@5": 85.79, "R@10": 92.51, "R@20": 95.94, "MRR@10": 67.51, "nDCG@10": 73.57, "time_s": 194.3}
+{"key": "bge-m3|sent256", "split": "all", "chunk": "sent256", "n": 788, "R@1": 52.86, "R@5": 84.39, "R@10": 92.64, "R@20": 95.56, "MRR@10": 66.7, "nDCG@10": 72.98, "time_s": 149.8}
+{"key": "bge-m3|sent256", "split": "dev", "chunk": "sent256", "n": 2408, "R@1": 59.56, "R@5": 84.97, "R@10": 90.42, "R@20": 93.56, "MRR@10": 71.38, "nDCG@10": 75.75, "time_s": 149.8}
+{"key": "bge-m3|sent256", "split": "held", "chunk": "sent256", "n": 788, "R@1": 52.86, "R@5": 84.39, "R@10": 92.64, "R@20": 95.56, "MRR@10": 66.7, "nDCG@10": 72.98, "time_s": 149.8}
+{"key": "gemma-emb-2|article", "split": "all", "chunk": "article", "n": 788, "R@1": 55.46, "R@5": 81.35, "R@10": 87.25, "R@20": 92.32, "MRR@10": 66.91, "nDCG@10": 71.8, "time_s": 256.9}
+{"key": "gemma-emb-2|article", "split": "dev", "chunk": "article", "n": 2408, "R@1": 52.7, "R@5": 80.18, "R@10": 85.74, "R@20": 90.03, "MRR@10": 65.08, "nDCG@10": 69.84, "time_s": 257.0}
+{"key": "gemma-emb-2|article", "split": "held", "chunk": "article", "n": 788, "R@1": 55.46, "R@5": 81.35, "R@10": 87.25, "R@20": 92.32, "MRR@10": 66.91, "nDCG@10": 71.8, "time_s": 257.0}
+{"key": "gemma-emb-2|fixed128", "split": "all", "chunk": "fixed128", "n": 788, "R@1": 49.81, "R@5": 80.77, "R@10": 87.12, "R@20": 91.94, "MRR@10": 62.8, "nDCG@10": 68.68, "time_s": 421.7}
+{"key": "gemma-emb-2|fixed128", "split": "dev", "chunk": "fixed128", "n": 2408, "R@1": 53.5, "R@5": 81.8, "R@10": 87.88, "R@20": 91.55, "MRR@10": 66.26, "nDCG@10": 71.33, "time_s": 421.7}
+{"key": "gemma-emb-2|fixed128", "split": "held", "chunk": "fixed128", "n": 788, "R@1": 49.81, "R@5": 80.77, "R@10": 87.12, "R@20": 91.94, "MRR@10": 62.8, "nDCG@10": 68.68, "time_s": 421.7}
+{"key": "gemma-emb-2|fixed256", "split": "all", "chunk": "fixed256", "n": 788, "R@1": 53.05, "R@5": 81.22, "R@10": 88.01, "R@20": 92.89, "MRR@10": 65.72, "nDCG@10": 71.1, "time_s": 384.2}
+{"key": "gemma-emb-2|fixed256", "split": "dev", "chunk": "fixed256", "n": 2408, "R@1": 56.22, "R@5": 81.98, "R@10": 87.4, "R@20": 91.63, "MRR@10": 67.89, "nDCG@10": 72.43, "time_s": 384.2}
+{"key": "gemma-emb-2|fixed256", "split": "held", "chunk": "fixed256", "n": 788, "R@1": 53.05, "R@5": 81.22, "R@10": 88.01, "R@20": 92.89, "MRR@10": 65.72, "nDCG@10": 71.1, "time_s": 384.2}
+{"key": "gemma-emb-2|sent256", "split": "all", "chunk": "sent256", "n": 788, "R@1": 53.11, "R@5": 81.54, "R@10": 87.5, "R@20": 91.37, "MRR@10": 65.51, "nDCG@10": 70.85, "time_s": 309.1}
+{"key": "gemma-emb-2|sent256", "split": "dev", "chunk": "sent256", "n": 2408, "R@1": 53.72, "R@5": 81.4, "R@10": 87.32, "R@20": 91.27, "MRR@10": 66.23, "nDCG@10": 71.17, "time_s": 309.1}
+{"key": "gemma-emb-2|sent256", "split": "held", "chunk": "sent256", "n": 788, "R@1": 53.11, "R@5": 81.54, "R@10": 87.5, "R@20": 91.37, "MRR@10": 65.51, "nDCG@10": 70.85, "time_s": 309.1}
+{"key": "RRF(bm25-word|sent256 + e5-large|fixed128)", "split": "all", "chunk": "rrf", "n": 788, "R@1": 60.6, "R@5": 86.42, "R@10": 93.78, "R@20": 96.57, "MRR@10": 71.97, "nDCG@10": 77.21, "time_s": 0.4}
+{"key": "RRF(bm25-word|sent256 + e5-large|fixed128)", "split": "dev", "chunk": "rrf", "n": 2408, "R@1": 60.79, "R@5": 86.33, "R@10": 90.98, "R@20": 94.03, "MRR@10": 72.57, "nDCG@10": 76.88, "time_s": 0.5}
+{"key": "RRF(bm25-word|sent256 + e5-large|fixed128)", "split": "held", "chunk": "rrf", "n": 788, "R@1": 60.6, "R@5": 86.42, "R@10": 93.78, "R@20": 96.57, "MRR@10": 71.97, "nDCG@10": 77.21, "time_s": 0.5}
+{"key": "RRF(e5-large|fixed128 + bge-m3|fixed128)", "split": "all", "chunk": "rrf", "n": 788, "R@1": 56.85, "R@5": 87.37, "R@10": 93.65, "R@20": 96.32, "MRR@10": 70.04, "nDCG@10": 75.73, "time_s": 0.4}
+{"key": "RRF(e5-large|fixed128 + bge-m3|fixed128)", "split": "dev", "chunk": "rrf", "n": 2408, "R@1": 62.01, "R@5": 87.51, "R@10": 92.23, "R@20": 95.03, "MRR@10": 74.0, "nDCG@10": 78.23, "time_s": 0.4}
+{"key": "RRF(e5-large|fixed128 + bge-m3|fixed128)", "split": "held", "chunk": "rrf", "n": 788, "R@1": 56.85, "R@5": 87.37, "R@10": 93.65, "R@20": 96.32, "MRR@10": 70.04, "nDCG@10": 75.73, "time_s": 0.4}
+{"key": "RRF(bm25-word|sent256 + e5-large|fixed128 + bge-m3|fixed128)", "split": "all", "chunk": "rrf", "n": 788, "R@1": 59.77, "R@5": 88.26, "R@10": 94.29, "R@20": 96.83, "MRR@10": 72.29, "nDCG@10": 77.61, "time_s": 0.6}
+{"key": "RRF(bm25-word|sent256 + e5-large|fixed128 + bge-m3|fixed128)", "split": "dev", "chunk": "rrf", "n": 2408, "R@1": 63.69, "R@5": 88.03, "R@10": 92.04, "R@20": 95.25, "MRR@10": 74.88, "nDCG@10": 78.88, "time_s": 0.6}
+{"key": "RRF(bm25-word|sent256 + e5-large|fixed128 + bge-m3|fixed128)", "split": "held", "chunk": "rrf", "n": 788, "R@1": 59.77, "R@5": 88.26, "R@10": 94.29, "R@20": 96.83, "MRR@10": 72.29, "nDCG@10": 77.61, "time_s": 0.6}
+{"key": "RRF(bm25 + tat ca dense sach)", "split": "all", "chunk": "rrf", "n": 788, "R@1": 62.31, "R@5": 89.59, "R@10": 94.67, "R@20": 96.83, "MRR@10": 74.22, "nDCG@10": 79.19, "time_s": 0.7}
+{"key": "RRF(bm25 + tat ca dense sach)", "split": "dev", "chunk": "rrf", "n": 2408, "R@1": 64.52, "R@5": 88.3, "R@10": 92.52, "R@20": 95.72, "MRR@10": 75.57, "nDCG@10": 79.51, "time_s": 0.7}
+{"key": "RRF(bm25 + tat ca dense sach)", "split": "held", "chunk": "rrf", "n": 788, "R@1": 62.31, "R@5": 89.59, "R@10": 94.67, "R@20": 96.83, "MRR@10": 74.22, "nDCG@10": 79.19, "time_s": 0.7}
+{"key": "RRF(bm25 + tat ca dense sach) >> bge-reranker-v2-m3", "split": "all", "chunk": "rerank@50", "n": 788, "R@1": 65.74, "R@5": 89.4, "R@10": 94.04, "R@20": 96.95, "MRR@10": 76.34, "nDCG@10": 80.61, "time_s": 269.9}
+{"key": "RRF(bm25 + tat ca dense sach) >> bge-reranker-v2-m3", "split": "dev", "chunk": "rerank@50", "n": 0, "R@1": NaN, "R@5": NaN, "R@10": NaN, "R@20": NaN, "MRR@10": NaN, "nDCG@10": NaN, "time_s": 269.9}
+{"key": "RRF(bm25 + tat ca dense sach) >> bge-reranker-v2-m3", "split": "held", "chunk": "rerank@50", "n": 788, "R@1": 65.74, "R@5": 89.4, "R@10": 94.04, "R@20": 96.95, "MRR@10": 76.34, "nDCG@10": 80.61, "time_s": 269.9}
+{"key": "RRF(bm25 + tat ca dense sach) >> Vietnamese_Reranker", "split": "all", "chunk": "rerank@50", "n": 788, "R@1": 79.89, "R@5": 95.56, "R@10": 97.08, "R@20": 97.84, "MRR@10": 87.0, "nDCG@10": 89.49, "time_s": 268.7}
+{"key": "RRF(bm25 + tat ca dense sach) >> Vietnamese_Reranker", "split": "dev", "chunk": "rerank@50", "n": 0, "R@1": NaN, "R@5": NaN, "R@10": NaN, "R@20": NaN, "MRR@10": NaN, "nDCG@10": NaN, "time_s": 268.7}
+{"key": "RRF(bm25 + tat ca dense sach) >> Vietnamese_Reranker", "split": "held", "chunk": "rerank@50", "n": 788, "R@1": 79.89, "R@5": 95.56, "R@10": 97.08, "R@20": 97.84, "MRR@10": 87.0, "nDCG@10": 89.49, "time_s": 268.7}
