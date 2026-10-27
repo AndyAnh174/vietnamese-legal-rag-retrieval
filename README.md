@@ -16,6 +16,8 @@ Science).
 | `manuscript/vjcs_manuscript_preview.pdf` | Preview PDF compiled with Tectonic (XeTeX). |
 | `manuscript/preview_xetex.tex` | Wrapper used only to compile the preview with XeTeX. Do not submit. |
 | `paper_outline.md` | Working outline and result notes (Vietnamese). |
+| `results/results_v2.jsonl`, `results_v2.csv` | Scores of every configuration on the test (`all`, `held`) and development (`dev`) splits. |
+| `results/perq.pkl` | Per-query scores (`key -> metric -> qid -> value`) used for the paired bootstrap tests. |
 
 ## Data
 
@@ -66,8 +68,17 @@ cd manuscript
 tectonic preview_xetex.tex
 ```
 
+## Result files
+
+The files in `results/` come from a full re-run on a Colab A100 (80 GB)
+on 27 October 2026; every nDCG@10 value matches the manuscript.
+
+```python
+import pickle
+perq = pickle.load(open("results/perq.pkl", "rb"))
+perq["bm25-word|sent256"]["nDCG@10"]  # {qid: score}
+```
+
 ## TODO
 
 - Add the Colab notebook used to run the experiments.
-- Add `results_v2.jsonl` and `perq.pkl` after re-running (the original Colab
-  runtime was reset).
