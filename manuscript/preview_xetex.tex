@@ -1,0 +1,6 @@
+%% Wrapper chi dung de xem truoc bang Tectonic (XeTeX). KHONG nop file nay.
+%% ws-vjcs.cls dat font cmr (chi co cho pdfLaTeX); duoi XeTeX doi sang Latin
+%% Modern (lmr), ban sao vector cua Computer Modern, de bien dich duoc.
+\let\OrigDocumentclass\documentclass
+\def\documentclass#1{\OrigDocumentclass{#1}\renewcommand{\rmdefault}{lmr}}
+\input{vjcs_manuscript}
