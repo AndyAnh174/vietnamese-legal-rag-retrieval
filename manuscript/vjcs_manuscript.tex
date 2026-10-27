@@ -57,7 +57,7 @@ This paper reports a controlled empirical study organized around four research q
 \item \textbf{RQ4}: How much do rank fusion and cross-encoder reranking add?
 \end{itemlist}
 
-A recent multi-domain benchmark compares retrieval paradigms for Vietnamese on curated query--passage collections.\cite{nguyen2026vire} Our study is complementary: it fixes one domain and the full article collection, and varies the preprocessing decisions that such benchmarks hold constant. The main contributions of this work are summarized as follows:
+A recent multi-domain benchmark compares retrieval paradigms for Vietnamese on samples of 1,000 query--passage pairs from ten datasets.\cite{nguyen2026vire} Our study is complementary: it fixes one domain and the full article collection, and varies the preprocessing decisions that such benchmarks hold constant. The main contributions of this work are summarized as follows:
 \begin{itemlist}
 \item We evaluate two tokenization schemes, four chunking strategies, five dense retrievers, four fusion configurations and two rerankers under identical conditions on 61,425 legal articles, selecting configurations on a separate development set and testing differences with a paired bootstrap.
 \item We show that the benefit of chunking depends on the input limit of the embedding model: a 512-token model gains 7.8 nDCG@10 points, whereas 1,024-token models gain nothing significant.
@@ -92,7 +92,7 @@ When evaluation data, or data from the same source, is included in training, ben
 
 \subsection{Summary and positioning}
 
-Prior work on Vietnamese legal retrieval has largely focused on building the best system for a given competition, and the recent multi-domain benchmark of Nguyen and Quan\cite{nguyen2026vire} compares retrieval paradigms across domains on curated collections. Neither line of work isolates how word segmentation and chunking interact with the input limit of the embedding model, selects configurations on held-out data with significance testing, or checks whether the models being ranked have seen data from the benchmark source. Our study addresses these three points on a single, full-size legal collection; it does not propose a new model.
+Prior work on Vietnamese legal retrieval has largely focused on building the best system for a given competition. The recent multi-domain benchmark of Nguyen and Quan\cite{nguyen2026vire} compares lexical, sparse, late-interaction, dense and hybrid retrievers across six domains, including a ZaloLegalQA set drawn from the same competition data as ours. To make domains comparable, it evaluates each dataset on 1,000 query--passage pairs, so the candidate pool is much smaller than the full article collection; it keeps preprocessing fixed, and it reports Vietnamese\_Embedding\_v2 as the strongest dense model on ZaloLegalQA without discussing the overlap between that model's training data and the benchmark. Neither line of work isolates how word segmentation and chunking interact with the input limit of the embedding model, selects configurations on held-out data and compares them with paired per-query significance tests, or checks whether the models being ranked have seen data from the benchmark source. Our study addresses these three points on a single, full-size legal collection; it does not propose a new model.
 
 %=========================================================================
 \section{Experimental Setup}
@@ -338,7 +338,7 @@ For practitioners building Vietnamese legal RAG systems, our results suggest the
 
 \subsection{Limitations}
 
-Our study has several limitations. It uses one dataset and one domain and evaluates retrieval only, not the answers generated from retrieved articles. Each query has about one relevant article, so Recall@$k$ is close to a hit rate, and unlabeled relevant articles may exist. The development set is drawn from the competition's training data, which the BKAI model has partly seen; it is therefore suitable for selecting among clean models only. EmbeddingGemma-300m could not be evaluated, and EmbeddingGemma-2 was used with its default document prompt. Chunk lengths are counted in syllables rather than in model tokens. Finally, the bootstrap tests are not corrected for multiple comparisons; the main conclusions rest on differences with $p < 0.001$, which remain significant under a Holm--Bonferroni correction over the 15 comparisons per metric, since the strictest Holm threshold is $0.05/15 \approx 0.0033$.
+Our study has several limitations. It uses one dataset and one domain and evaluates retrieval only, not the answers generated from retrieved articles. Each query has about one relevant article, so Recall@$k$ is close to a hit rate, and unlabeled relevant articles may exist. The development set is drawn from the competition's training data, which the BKAI model has partly seen; it is therefore suitable for selecting among clean models only. EmbeddingGemma-300m could not be evaluated, and EmbeddingGemma-2 was used with its default document prompt. Chunk lengths are counted in syllables rather than in model tokens. We fuse rankings with RRF because it needs no tuning; Nguyen and Quan\cite{nguyen2026vire} found linear interpolation of BM25 and dense scores to be stronger than RRF on Vietnamese data, so our fusion gains may underestimate what a tuned hybrid achieves. Finally, the bootstrap tests are not corrected for multiple comparisons; the main conclusions rest on differences with $p < 0.001$, which remain significant under a Holm--Bonferroni correction over the 15 comparisons per metric, since the strictest Holm threshold is $0.05/15 \approx 0.0033$.
 
 %=========================================================================
 \section{Conclusion and Future Work}
@@ -360,10 +360,11 @@ During the preparation of this work the author(s) used Claude (Anthropic) to ass
 
 \section*{Data and Code Availability}
 
-% TODO: dua code len GitHub va dien link
+% TODO: chuyen repo GitHub sang Public truoc khi nop (link duoi day chi mo duoc khi repo da Public)
 The Zalo AI 2021 legal retrieval data are publicly available as a Hugging Face dataset:
 \begin{center}\texttt{GreenNode/zalo-ai-legal-text-retrieval-vn}\end{center}
-Code, configuration files and per-query results are available at [repository URL].
+Code, configuration files and per-query results are available at
+\begin{center}\url{https://github.com/AndyAnh174/vietnamese-legal-rag-retrieval}\end{center}
 
 \section*{ORCID}
 
